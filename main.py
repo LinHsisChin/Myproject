@@ -308,7 +308,7 @@ class Pokemon:
 # class Student(Member):
 #     def __init__(self, new_gender, new_major, new_id):
 #         super().__init__(new_gender, new_major, new_id)
-# 
+#
 #     def join_class(self):
 #         pass
 #
