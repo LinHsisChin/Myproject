@@ -259,63 +259,66 @@ import pandas as pd
 #
 # print(foo())
 
-class Pokemon:
-    def __init__(self, new_name, new_weight, name_height, new_food, new_cp):
-        self.__name = new_name
-        self.__weight = new_weight
-        self.__height = name_height
-        self.__food = new_food
-        self.__cp = new_cp
-    def eat(self):
-        print(f'The pokemon is eating {self.__food}.')
-    def make_noice(self):
-        print("The pokemon wow wow wow")
-
-    def get_name(self):
-        return self.__name
-
-    def set_name(self, new_name):
-        self.__name = new_name
-
-    def get_weight(self):
-        return self.__weight
-
-    def set_weight(self, new_weight):
-        self.__weight = new_weight
-
-    def get_height(self):
-        return self.__height
-
-    def set_height(self, new_height):
-        self.__height = new_height
-
-    def get_food(self):
-        return self.__food
-
-    def set_food(self, new_food):
-        self.__food = new_food
-
-    def get_cp(self):
-        return self.__cp
-
-    def set_cp(self, new_cp):
-        self.__cp = new_cp
 
 
-class Student(Member):
-    def __init__(self, new_gender, new_major, new_id):
-        super().__init__(new_gender, new_major, new_id)
 
-    def join_class(self):
-        pass
-
-    def quit_class(self):
-        pass
-
-    def borrow_resources(self):
-        print('student borrow')
-
-ls = [studentA, studentB, professorA, professorB]
-
-for item in ls:
-    item.borrow_resources()
+# class Pokemon:
+#     def __init__(self, new_name, new_weight, name_height, new_food, new_cp):
+#         self.__name = new_name
+#         self.__weight = new_weight
+#         self.__height = name_height
+#         self.__food = new_food
+#         self.__cp = new_cp
+#     def eat(self):
+#         print(f'The pokemon is eating {self.__food}.')
+#     def make_noice(self):
+#         print("The pokemon wow wow wow")
+#
+#     def get_name(self):
+#         return self.__name
+#
+#     def set_name(self, new_name):
+#         self.__name = new_name
+#
+#     def get_weight(self):
+#         return self.__weight
+#
+#     def set_weight(self, new_weight):
+#         self.__weight = new_weight
+#
+#     def get_height(self):
+#         return self.__height
+#
+#     def set_height(self, new_height):
+#         self.__height = new_height
+#
+#     def get_food(self):
+#         return self.__food
+#
+#     def set_food(self, new_food):
+#         self.__food = new_food
+#
+#     def get_cp(self):
+#         return self.__cp
+#
+#     def set_cp(self, new_cp):
+#         self.__cp = new_cp
+#
+#
+# class Student(Member):
+#     def __init__(self, new_gender, new_major, new_id):
+#         super().__init__(new_gender, new_major, new_id)
+#
+#     def join_class(self):
+#         pass
+#
+#     def quit_class(self):
+#         pass
+#
+#     def borrow_resources(self):
+#         print('student borrow')
+#
+# ls = [studentA, studentB, professorA, professorB]
+#
+# for item in ls:
+#     item.borrow_resources()
